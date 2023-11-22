@@ -7,15 +7,15 @@
         <!-- 파비콘 넣기 -->
         <link rel="shortcut icon" href="https://ohora.kr/web/upload/favicon_20190801113230.ico" />
         <!-- 외부 css 넣기 -->
-        <link rel="stylesheet" href="../css/sub.css" />
-        <link rel="stylesheet" href="../css/nail.css" />
+        <link rel="stylesheet" href="./css/sub.css" />
+        <link rel="stylesheet" href="./css/nail.css" />
         <!-- 미디어쿼리 css 넣기 -->
-        <link rel="stylesheet" href="../css/media_sub.css" />
+        <link rel="stylesheet" href="./css/media_sub.css" />
         <!-- 외부 js 넣기 -->
-        <script src="../js/nail.js" type="module"></script>
-        <script src="../js/sub_gnb.js" type="module"></script>
-        <script src="../js/sub_ham.js" type="module"></script>
-        <!-- <script src="../js/sub_gnb.js"></script> -->
+        <script src="./js/nail_gelst.js" type="module"></script>
+        <script src="./js/sub_gnb.js" type="module"></script>
+        <script src="./js/sub_ham.js" type="module"></script>
+        <!-- <script src="./js/sub_gnb.js"></script> -->
         <!-- 아이콘 cdn -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     </head>
@@ -27,7 +27,7 @@
                 <!-- 1-1. 메인 로고(black) -->
                 <h1 class="logo">
                     <a href="./index.html" title="메인 바로가기">
-                        <img src="../img/logo_black.png" alt="메인로고" />
+                        <img src="./img/logo_black.png" alt="메인로고" />
                     </a>
                 </h1>
                 <!-- 1-2. 왼쪽 상단 메뉴 -->
@@ -72,10 +72,10 @@
             <main class="cont">
                 <div class="bgpart">
 
-                     <!-- 햄버거 버튼 -->
+                    <!-- 햄버거 버튼 -->
                     <div class="ham">
-                        <img src="../img/ham.svg" alt="menu">
-                        <img src="../img/cbtn.svg" alt="menu">
+                        <img src="./img/ham.svg" alt="menu">
+                        <img src="./img/cbtn.svg" alt="menu">
                     </div>
                         <nav class="gnb s_gnb">
                             <div class="mlist">
@@ -118,23 +118,41 @@
                         </nav>
 
                     <!-- 2-1. 왼쪽 배경 -->
-                    <!-- 배경 이미지 -->
-                    <div class="lbg">
-                        <div class="bgbx"></div>
-                    </div>
+                        <!-- 배경 이미지 -->
+                        <div class="lbg">
+                            <div class="bgbx">
+                                <!-- 배경 박스 -->
+                                <div class="lbgblack">
+                                    <!-- 배경 텍스트 -->
+                                    <div class="bgtxt">
+                                        <h3>gel strip</h3>
+                                        <span class="en-txt">
+                                            a whole new experience
+                                            <br>
+                                            with gel strip
+                                        </span>
+                                        <span class="ko-txt">
+                                            완전히 새로운 경험,
+                                            <br>
+                                            오호라 젤 스트립
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     <!-- 2-2. 오른쪽 상품 페이지 -->
                     <div class="rbg">
                         <!-- 상품 메뉴(?) -->
                         <nav class="pgnb">
                             <ul>
-                                <li class="on">
+                                <li>
                                     <a href="./sub1_nail_all.html">ALL</a>
                                 </li>
                                 <li>
                                     <a href="./sub1_nail_geltip.html">젤네일팁</a>
                                 </li>
-                                <li>
+                                <li class="on">
                                     <a href="./sub1_nail_gelst.html">젤스트립</a>
                                 </li>
                             </ul>
@@ -146,9 +164,6 @@
                         <div class="indic">
                             <ul>
                                 <li class="on"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">></a></li>
                             </ul>
                         </div>
                     </div>
