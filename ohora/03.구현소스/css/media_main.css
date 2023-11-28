@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* 오호라 미디어쿼리 css - media_main.css */
+
+/* 1100px사이즈 이하 미디어쿼리 시작 */
+@media screen and (max-width: 1100px) {
+
+    /* 왼쪽 클립 패스 */
+    .lbg::before{
+        clip-path: ellipse(144px 198px);
+    }
+
+    /* 왼쪽 배경 텍스트 */
+    .lbgtxt{
+        bottom:4.5%;
+        left: 8.5%;
+    }
+
+    .lbgtxt>h2{
+        font-size: 30px;
+    }
+
+    .lbgtxt>span{
+        font-size: 12px;
+    }
+
+    /* 오른쪽 클립 패스 */
+    .rbg::before{
+        clip-path: ellipse(144px 198px);
+        /* clip-path: ellipse(30% 26%); */
+    }
+
+    /* 오른쪽 배경 텍스트 */
+    .rbgtxt h2{
+        font-size: min(75px,6.5vw);
+    }
+
+    /* 신제품보기 박스 */
+    .newbx {
+        bottom: 10.5%;
+    }
+
+    /* 서브 gnb 박스 */
+    .ham{
+        left: 4%;
+        top: 30px;
+    }
+
+    .mlist{
+        padding: 6%;
+        padding-top: 80px;
+    }
+
+} /* 1100px사이즈 이하 미디어쿼리 끝 */
+
+/* 760px사이즈 이하 미디어쿼리 시작 */
+@media screen and (max-width: 760px) {
+
+    .top{
+        top: 3%;
+    }
+
+    /* 로고 */
+    .logo img:first-child{
+        display: none;
+    }
+
+    .logo img:last-child{
+        display: block;
+    }
+
+    /* 햄버거 버튼 */
+    .m_gnb{
+        display: none;
+    }
+
+    .milst{
+        position: relative;
+    }
+
+    .hamtop{
+        position: absolute;
+        display: block;
+    }
+
+    .hambottom{
+        position: absolute;
+        display: block;
+        bottom: 40px;
+    }
+
+    /* 화면 나누기 */
+    .bgpart{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .mlist{
+        height: 100vh;
+    }
+
+    /* 왼쪽 배경 이미지 */
+        .lbg{
+        display: none;  
+        }
+
+        /* 클립 패스 */
+        .lbg::before{
+            clip-path: none;
+            transition: none;
+
+            background: url(../img/bg_main2.jpg) no-repeat bottom/cover;
+        }
+
+        /* 왼쪽 배경 텍스트 */
+        .lbgtxt>h2{
+            font-size: 30px;
+        }
+
+        .lbgtxt>span{
+            font-size: 12px;
+            line-height: 1.7;
+        }
+
+    /* 오른쪽 배경 이미지 */
+        /* 클립 패스 */
+        .rbg{
+            /* display: none; */
+        }
+        
+        .rbg::before{
+            clip-path: none;
+            transition: none;
+
+            background: url(../img/bg_main1-1.jpg) no-repeat bottom/cover;
+        }
+
+        /* 오른쪽 배경 텍스트 */
+        .rbgtxt h2{
+            font-size: 55px; /* 45px */
+        }
+
+    /* 신제품 보기 버튼 */
+    .newbx{
+        bottom: 6%;
+        
+        /* 폰트 설정 */
+        font-size: 14px;
+
+        /* 박스 설정 */
+        padding: 10px 35px;
+        cursor: pointer;
+    }
+
+    /* 3. 하단 영역 */
+
+    #info{
+        display: block;
+        padding: 1% 2%;
+        background-color: #fff;
+    }
+    
+    /* 하단 왼쪽 fnb 메뉴 */
+    .l_fmenu{
+        display: none;
+    }
+
+    /* 중앙 하단 회사 정보 안내 */
+    .fmenu ul{
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .link{
+        margin-bottom: 2%;
+    }
+
+    .sns{
+        margin: 0 auto;
+        margin-top: 0.5%;
+    }
+
+    /* 하단 메뉴 폰트 */
+    .fmenu, .fmenu ul, .l_fmenu, address{
+        font-size: 10px;
+    }
+
+} /* 760px사이즈 이하 미디어쿼리 끝 */

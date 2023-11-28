@@ -1,0 +1,83 @@
+1. 메인 구성 참고
+
+https://www.figma.com/file/urt7TX8P8CQdOF6EiBylfi/01.-%EC%9B%B9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B0%9C%EC%9D%B8_%EC%88%98%EC%A0%95?node-id=0%3A1&t=Ycaw1KN7eckugJuO-1
+
+Baskerville Extra Bold Wide 오호라 로고 폰트
+산돌 나눔고딕
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
+</style>
+
+font-family: 'Libre Baskerville', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+
+글자색: 515151
+보라색: A496AB
+분홍색: E3A29C
+
+체리블라썸 컬렉션
+https://ohora.kr/article/magazine/8/153959/
+
+
+
+1-1. 기존 사이트
+https://ohora.kr/
+
+1-2. 메인 구성
+★★★★★★ https://ever.ru/en/ ★★★★★★
+https://contrabureau.com/
+★★★ https://en.manayerbamate.com/ ★★★
+
+https://www.tamburins.com/
+https://sasuphi.com/
+
+1-3. 서브_제품 페이지 구성
+https://nonfiction.com/product/list.html?cate_no=42
+
+2. 효과 참고
+
+2-0. 미정
+https://secrid.com/en-global/
+- 리뷰페이지 or 매거진 효과
+
+2-1. 메인
+https://vollebak.com/
+- 신제품 진열 (옆으로 계속 이동하는 효과, 신상품만 반복)
+
+2-2. 서브_제품 페이지
+https://secrid.com/en-global/wallets/miniwallet/
+- 마우스 오버 시 제품 사진 변경 (네일 팁 -> 실제 착용)
+https://banditrunning.com/
+- 마우스 오버 시 제품 사진 변경되면서 add to cart 추가
+https://sasuphi.com/collections/new-in
+- 마우스 오버 시 제품 사진 변경되면서 add to cart 추가하고 오른쪽 상단 위에 찜버튼 추가(하트 모양)
+
+2-3. 하단
+https://secrid.com/en-global
+- 하단 SNS 구성
+
+3. 기타 효과
+https://kmbch.webflow.io/
+- 맥주병 돌아가는 효과 어디에 쓸 수 있을지
+https://consumer.haus/
+- 그냥 다시 봐보기
+https://amourliquide.com/en/
+- 로딩화면
+
+
+https://www.awwwards.com/websites/nominees/
+
+4. 모바일
+
+1. 구성 참고
+
+1-3. 서브 제품페이지 구성
+https://suitsupply.com/en-nl/lookbuilder
+
+2. 효과 참고
+
+3. 하단
+
+4. 기타

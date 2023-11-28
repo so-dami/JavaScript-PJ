@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* 오호라 미디어쿼리 css - media_sub.css */
+
+/* 760px사이즈 이하 미디어쿼리 시작 */
+@media screen and (max-width: 760px) {
+
+    /* 2. 메인 영역 */
+    .bgpart{
+        flex-direction: column;
+    }
+
+    /* 배경 */
+    .bgbx{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .pgnb ul {
+        padding-top: 3%;
+    }
+
+    /* 햄버거 박스 */
+    .tmenu{
+        display: none;
+    }
+
+    .ham{
+        position: fixed;
+        display: block;
+        left: 4%;
+    }
+
+    .hambottom{
+        position: absolute;
+        display: block;
+        bottom: 40px;
+    }
+    
+    .mlist{
+        position: fixed;
+        background-color: rgba(255, 255, 255);
+        padding-left: 6%;
+        padding-right: 6%;
+        z-index: 99;
+    }
+
+    /* 페이지 버튼 */
+    .indic{
+        margin-bottom: 5%;
+    }
+
+    /* 배경 텍스트 */
+
+    .bgtxt{
+        width: 500px;
+        text-align: center;
+    }
+
+    .bgtxt>span{
+        display: none;
+    }
+
+    .bgtxt>h3{
+        font-size: 30px;
+        line-height: 0;
+    }
+    
+
+    /* 3. 하단 영역 */
+
+    #info{
+        display: block;
+        padding: 1% 2%;
+        background-color: #fff;
+    }
+    
+    /* 하단 왼쪽 fnb 메뉴 */
+    .l_fmenu{
+        display: none;
+    }
+
+    /* 중앙 하단 회사 정보 안내 */
+    .fmenu ul{
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .link{
+        margin-bottom: 2%;
+    }
+
+    .sns{
+        margin: 0 auto;
+        margin-top: 0.5%;
+    }
+
+    /* 하단 메뉴 폰트 */
+    .fmenu, .fmenu ul, .l_fmenu, address{
+        font-size: 10px;
+    }
+
+} /* 760px사이즈 이하 미디어쿼리 끝 */

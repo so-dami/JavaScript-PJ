@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* 오호라 공통 CSS - common.css */
+
+/* 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
+
+    /*
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    */
+
+
+/* 공사중 */
+body *{
+    /* outline: 1px dashed yellowgreen; */
+}
+
+/* 3. 하단 영역 */
+#info{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    background-color: #fff;
+}
+
+/* 하단 메뉴 공통 */
+    /* 하단 메뉴 가로로 나열 */
+    .fmenu ul{
+        /* 플렉스 박스 */
+        display: flex;
+        /* 플렉스 줄바꿈 설정 */
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    /* 하단 메뉴 폰트 */
+    .fmenu, .fmenu ul, .l_fmenu, address{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 11px;
+        color: #515151;
+        font-style: normal;
+        font-weight: lighter;
+    }
+
+/* 하단 메뉴 a요소 공통 */
+    /* 트랜지션 */
+    .fmenu a,
+    .l_fmenu a,
+    .corp a{
+        color: #515151;
+        transition: all .3s ease-in-out;
+    }
+
+    /* 오버시 a요소 */
+    .fmenu a:hover,
+    .l_fmenu a:hover,
+    .corp a:hover{
+        text-decoration: underline;
+    }
+
+/* 중앙 하단 회사 정보 안내 */
+.link{
+    margin-bottom: 4%;
+}
+
+.link ul{
+    justify-content: space-evenly;
+}
+
+address{
+    text-align: center;
+}
+
+/* 오른쪽 하단 sns 안내 */
+.sns{
+    width: 182px;
+}
+.sns ul{
+    gap: 12px;
+}
+
+.sns a{
+    font-size: 17px;
+}
