@@ -34,8 +34,10 @@ input[type='checkbox']:checked + label {
 /* modal */
 .black-bg {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
 
@@ -48,7 +50,7 @@ input[type='checkbox']:checked + label {
 
 .white-bg {
   position: absolute;
-  width: 50%;
+  /* width: 50%; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -98,15 +100,15 @@ input[type='checkbox']:checked + label {
 
 /* main */
 .main-bg {
+  height: 100vh;
+  padding: 0 30px;
   background-color: #f6f6f6;
-  position: fixed;
-  width: 100%;
-  height: 100%;
+  box-sizing: border-box;
 }
 
 .todo-wrap {
-  width: 50%;
-  height: 100vh;
+  /* width: 50%; */
+  max-width: 600px;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -178,17 +180,4 @@ input[type='checkbox']:checked + label {
   width: 15px;
   height: 3px;
   background-color: #000;
-}
-
-/* 모바일 CSS */
-@media screen and (max-width: 1023px) {
-  .todo-wrap {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .todo-wrap {
-    width: 70%;
-  }
 }
