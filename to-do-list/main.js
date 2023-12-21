@@ -145,48 +145,6 @@ blankChk.addEventListener('click', function () {
 });
 
 // 삭제
-// function listDelete() {
-//   // '-' 버튼
-//   let delBtn = document.querySelectorAll('.del-btn');
-
-//   // 삭제 여부 묻는 모달창
-//   let delChk = document.querySelector('#del-chk');
-
-//   // '예' 버튼
-//   let yesBtn = document.querySelector('#yes-btn');
-
-//   // 삭제할 li
-//   let delList = document.querySelectorAll('.list-item');
-
-//   // delete button 클릭 시
-//   delBtn.forEach((a, i) => {
-//     a.addEventListener('click', function () {
-//       // let delList = a.parentElement.parentElement;
-
-//       // 삭제 여부 물어보기
-//       delChk.classList.add('show-modal');
-
-//       // 예 클릭 시
-//       yesBtn.addEventListener('click', function () {
-//         // 모달창 닫기
-//         delChk.classList.remove('show-modal');
-
-//         // localStorage에서 해당 데이터 삭제
-//         let local = JSON.parse(localStorage.getItem('todo'));
-
-//         local.splice(i, 1);
-//         localStorage.setItem('todo', JSON.stringify(local));
-
-//         console.log(delList[i]);
-
-//         // 해당 li 삭제
-//         delList[i].remove();
-//       });
-//     });
-//   });
-// }
-
-// 삭제
 function listDelete(e) {
   let deleteBtn = e;
 
