@@ -51,7 +51,7 @@ input[type='checkbox']:checked + label {
 
 .white-bg {
   position: absolute;
-  /* width: 50%; */
+  min-width: 190px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -74,7 +74,7 @@ input[type='checkbox']:checked + label {
 
 #close-btn {
   background-color: lightgray;
-  transition: all 0.5 ease-in-out;
+  /* transition: all 0.5 ease-in-out; */
 }
 
 #yes-btn {
